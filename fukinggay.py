@@ -3,8 +3,8 @@ import subprocess
 from logging import DEBUG, INFO, basicConfig, getLogger, warning
 basicConfig(format="𝐋𝐈𝐎𝐍 𝐔𝐁 %(asctime)s ✘ - ⫸ %(name)s ⫷ - ⛝ %(levelname)s ⛝ - ║ %(message)s ║", level=INFO)
 LOGS = getLogger("Helper")
-os.system("git clone https://github.com/Mdnoor786/Lion-X lion")
-os.chdir("lion")
+os.system("git clone https://github.com/Mdnoor786/Lion-X lion-x")
+os.chdir("lion-x")
 process = subprocess.Popen(
         ["python3", "-m", "Lion"],
         stdout=subprocess.PIPE,
