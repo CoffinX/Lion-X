@@ -1,1 +1,1 @@
-lion: python3 fukinggay.py
+worker: python3 fukinggay.py
